@@ -1,0 +1,178 @@
+@media screen and (min-width: 1200px) {
+    .flex-container {
+        width: 100%;
+        height: 100%;
+        margin: 0 auto;
+        display: flex;
+        flex-wrap: nowrap;
+    }
+
+    .item {
+        height: 100%;
+        width: 100%;
+        font-size: 5em;
+        text-align: center;
+        color: whitesmoke;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .flex-container {
+        width: 100%;
+        height: 100%;
+        margin: 0 auto;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+
+    .item.red {
+        height: 30%;
+        width: 33%;
+    }
+
+    .item.orange {
+        height: 30%;
+        width: 33%;
+    }
+
+    .item.yellow {
+        height: 30%;
+        width: 33%;
+    }
+
+    .item.green {
+        height: 50%;
+        width: 50%;
+    }
+
+    .item.blue {
+        height: 50%;
+        width: 50%;
+    }
+
+}
+
+
+@media screen and (max-width: 768px) {
+    .flex-container {
+        width: 100%;
+        height: 100%;
+        margin: 0 auto;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+
+    .item.red {
+        height: 50%;
+        width: 50%;
+    }
+
+    .item.orange {
+        height: 50%;
+        width: 50%;
+    }
+
+    .item.yellow {
+        height: 50%;
+        width: 50%;
+    }
+
+    .item.green {
+        height: 50%;
+        width: 50%;
+    }
+
+    .item.blue {
+        height: 100%;
+        width: 100%;
+    }
+
+}
+
+
+@media screen and (max-width: 576px) {
+    .flex-container {
+        width: 100%;
+        height: 100%;
+        margin: 0 auto;
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: column;
+    }
+
+    /* Не знаю, почему, но так не работает: все цвета остаются шириной в половину голубого.
+     .item {
+        height: 100%;
+        width: 100%;
+        font-size: 5em;
+        text-align: center;
+        color: whitesmoke;
+
+    } */
+
+    .item.red {
+        height: 100%;
+        width: 100%;
+
+    }
+
+    .item.orange {
+        height: 100%;
+        width: 100%;
+    }
+
+    .item.yellow {
+        height: 100%;
+        width: 100%;
+    }
+
+    .item.green {
+        height: 100%;
+        width: 100%;
+    }
+
+    .item.blue {
+        height: 100%;
+        width: 100%;
+    }
+
+}
+
+
+
+.item.red {
+    background-color: red;
+    font-size: 5em;
+    text-align: center;
+    color: whitesmoke;
+}
+
+.item.orange {
+    background-color: orange;
+    font-size: 5em;
+    text-align: center;
+    color: whitesmoke;
+}
+
+.item.yellow {
+    background-color: yellow;
+    font-size: 5em;
+    text-align: center;
+    color: whitesmoke;
+}
+
+.item.green {
+    background-color: green;
+    font-size: 5em;
+    text-align: center;
+    color: whitesmoke;
+}
+
+.item.blue {
+    background-color: blue;
+    font-size: 5em;
+    text-align: center;
+    color: whitesmoke;
+}
